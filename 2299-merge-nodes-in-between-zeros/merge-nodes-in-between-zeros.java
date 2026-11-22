@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode mergeNodes(ListNode head) {
-       // if(head==null || head.next==null) return head;
+        if(head==null || head.next==null) return head;
       ListNode write=head;
       ListNode read=head.next;
 
